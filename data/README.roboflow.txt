@@ -1,8 +1,8 @@
 
-License Plates - v3 Original License Plates
+LPCharRecog - v10 LPChar_v7
 ==============================
 
-This dataset was exported via roboflow.com on October 2, 2024 at 11:41 AM GMT
+This dataset was exported via roboflow.com on February 21, 2025 at 6:55 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,12 +17,10 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 350 images.
-Plates are annotated in YOLOv11 format.
+The dataset includes 621 images.
+Characters are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
-* Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 416x416 (Stretch)
 
 No image augmentation techniques were applied.
 

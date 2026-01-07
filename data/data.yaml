@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 2
-names: ['license-plate', 'vehicle']
+nc: 40
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'ae', 'o', 'oe', 'ue']
 
 roboflow:
-  workspace: samrat-sahoo
-  project: license-plates-f8vsn
-  version: 3
+  workspace: licenseplatecharacterrecognition
+  project: lpcharrecog
+  version: 10
   license: CC BY 4.0
-  url: https://universe.roboflow.com/samrat-sahoo/license-plates-f8vsn/dataset/3
+  url: https://universe.roboflow.com/licenseplatecharacterrecognition/lpcharrecog/dataset/10
